@@ -1,0 +1,69 @@
+{
+  "name": "inkflow-ai-convert",
+  "version": "0.1.0",
+  "description": "📢 Experience the future of ✍️ handwritten content conversion with 'InkFlow AI Convert'. Our innovative web application, powered by 🔝 cutting-edge technologies, offers a seamless solution to transform 🖊️ handwritten text into 📄 digital text. This pioneering solution rests upon the pillars of Next.js, Tailwind CSS, and MongoDB, forming the 🏛️ bedrock of innovation. Simplify your workflow, enhance efficiency, and harness the power of AI-driven transcription to unlock the 💎 potential of your handwritten content.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rimraf .next",
+    "check-types": "tsc --noEmit --pretty",
+    "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
+    "commit": "git-cz",
+    "prepare": "husky install"
+  },
+  "bugs": {
+    "url": "hhttps://github.com/shahadat3669/inkflow-ai-convert/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shahadat3669/inkflow-ai-convert.git"
+  },
+  "dependencies": {
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "autoprefixer": "10.4.15",
+    "commitizen": "^4.3.0",
+    "cz-git": "^1.7.1",
+    "eslint": "8.48.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-next": "13.4.19",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
+    "postcss": "8.4.28",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.3",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "license": "MIT",
+  "author": "Shahadat Hossain (https://github.com/shahadat3669)"
+}
