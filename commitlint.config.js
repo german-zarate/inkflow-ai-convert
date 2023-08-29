@@ -5,7 +5,7 @@ module.exports = {
       2,
       'always',
       [
-        'feat',
+        '✨feat',
         'fix',
         'docs',
         'style',
