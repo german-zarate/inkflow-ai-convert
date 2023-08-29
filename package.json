@@ -1,0 +1,39 @@
+{
+  "name": "inkflow-ai-convert",
+  "version": "0.1.0",
+  "description": "📢 Experience the future of ✍️ handwritten content conversion with 'InkFlow AI Convert'. Our innovative web application, powered by 🔝 cutting-edge technologies, offers a seamless solution to transform 🖊️ handwritten text into 📄 digital text. This pioneering solution rests upon the pillars of Next.js, Tailwind CSS, and MongoDB, forming the 🏛️ bedrock of innovation. Simplify your workflow, enhance efficiency, and harness the power of AI-driven transcription to unlock the 💎 potential of your handwritten content.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rimraf .next",
+    "check-types": "tsc --noEmit --pretty"
+  },
+  "bugs": {
+    "url": "hhttps://github.com/shahadat3669/inkflow-ai-converter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shahadat3669/inkflow-ai-converter.git"
+  },
+  "dependencies": {
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "postcss": "8.4.28",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  },
+  "license": "MIT",
+  "author": "Shahadat Hossain (https://github.com/shahadat3669)"
+}
