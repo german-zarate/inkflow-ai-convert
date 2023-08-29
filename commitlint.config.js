@@ -5,7 +5,7 @@ module.exports = {
       2,
       'always',
       [
-        '✨feat',
+        'feat',
         'fix',
         'docs',
         'style',
@@ -36,45 +36,45 @@ module.exports = {
     types: [
       {
         value: '✨feat',
-        name: 'Feature: ✨ New features',
+        name: '✨ Feature: Introducing new features or enhancements',
       },
-      { value: '🐛fix', name: 'Fix: 🐛 fix bug', emoji: ':bug:' },
+      { value: '🔧fix', name: '🔧 Fix: Resolving bugs or issues' },
       {
         value: '📝docs',
-        name: 'Documents: 📝 Documentation Changes',
+        name: '📝 Documents: Documentation changes or improvements',
       },
       {
-        value: '💄style',
-        name: 'Format: 💄 code format (does not affect functions, such as space, semicolon and other format corrections)',
+        value: '🎨style',
+        name: '🎨 Style: Code formatting or style adjustments (does not affect functions, such as space, semicolon and other format corrections)',
       },
       {
         value: '♻️refactor',
-        name: 'Refactoring: ♻️ Code refactoring (excluding bug fixes, new features)',
+        name: '♻️  Refactoring: Restructuring code (excluding bug fixes, new features)',
       },
       {
         value: '⚡️perf',
-        name: 'Performance: ⚡️ performance optimization',
+        name: '⚡️ Performance: Improving application performance',
         emoji: ':zap:',
       },
       {
-        value: '✅test',
-        name: 'Test: ✅ Add omission test or change existing test',
+        value: '🧪test',
+        name: '🧪 Test: Add omission test or change existing test',
       },
       {
-        value: '📦️build',
-        name: 'Build: 📦️ build process, external dependency changes (such as upgrading npm packages, modifying vite configuration, etc.)',
+        value: '👷build',
+        name: '👷 Build: build process, external dependency changes (such as upgrading npm packages, modifying vite configuration, etc.)',
       },
       {
-        value: '🎡ci',
-        name: 'Integration: 🎡 Modify CI configuration, script',
+        value: '💚ci',
+        name: '💚 Integration: Modify CI configuration, script',
       },
       {
         value: '⏪️revert',
-        name: 'Revert: ⏪️ rollback commit',
+        name: '⏪️ Revert: rollback commit',
       },
       {
-        value: '🔨 chore',
-        name: '🔨 Chore: Maintenance tasks, build tools, or library updates',
+        value: '🚚chore',
+        name: '🚚 Chore: Maintenance tasks, build tools, or library updates',
       },
     ],
     scopes: ['dependencies', 'linting', 'jest', 'ui'],

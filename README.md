@@ -30,7 +30,7 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 🎯 InkFlow AI Converter<a name="about-project"></a>
+# 🎯 InkFlow AI Convert<a name="about-project"></a>
 📢 Experience the future of ✍️ handwritten content conversion with "InkFlow AI Convert." Our innovative web application, powered by 🔝 cutting-edge technologies, offers a seamless solution to transform 🖊️ handwritten text into 📄 digital text. This pioneering solution rests upon the pillars of Next.js, Tailwind CSS, and MongoDB, forming the 🏛️ bedrock of innovation. Simplify your workflow, enhance efficiency, and harness the power of AI-driven transcription to unlock the 💎 potential of your handwritten content.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -87,12 +87,12 @@ To get a local copy up and running follow these simple example steps.
 ### Setup <a name="setup"></a>
 First clone the project repository:
 ```bash
-  git clone git@github.com:shahadat3669/inkflow-ai-converter.git
+  git clone git@github.com:shahadat3669/inkflow-ai-convert.git
 ```
 
 Then go to the project directory.
 ```bash
-  cd inkflow-ai-converter
+  cd inkflow-ai-convert
 ```
 
 ### Prerequisites <a name="prerequisites"></a>
@@ -153,7 +153,7 @@ Deploying the Threads Clone project can be done using various platforms and host
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-Here are some potential future features that InkFlow AI Converter consider implementing to further enhance its services:
+Here are some potential future features that InkFlow AI convert consider implementing to further enhance its services:
 - [ ] **_Multi-Language Support:_** Expand AI transcription capabilities to recognize and convert content in multiple languages, catering to a global audience.
 - [ ] **_Advanced Formatting Options:_** Introduce formatting tools to allow users to customize the appearance of their converted digital text, such as font styles, colors, and alignments.
 - [ ] **_Handwriting Recognition Customization:_** Offer users the ability to train the AI model to recognize their unique handwriting style more accurately over time.
@@ -185,16 +185,16 @@ Give a ⭐️ if you like this project!
 <!-- FAQ -->
 
 ## ❓ FAQ <a name="faq"></a>
-Here are some frequently asked questions (FAQs) that users might have for InkFlow AI Converter, along with their respective answers:
+Here are some frequently asked questions (FAQs) that users might have for InkFlow AI convert, along with their respective answers:
 
-- **What is InkFlow AI Converter?**
-  - InkFlow AI Converter is an innovative web application designed to transform handwritten tablet drawings and notes into digital text using cutting-edge technologies.
+- **What is InkFlow AI Convert?**
+  - InkFlow AI Convert is an innovative web application designed to transform handwritten tablet drawings and notes into digital text using cutting-edge technologies.
 
 - **How does the conversion process work?**
   - The application utilizes advanced AI-driven transcription to convert your handwritten content into editable digital text.
 
-- **Which technologies power InkFlow AI Converter?**
-  - InkFlow AI Converter is built upon a foundation of Next.js, Tailwind CSS, and MongoDB, ensuring a seamless and efficient user experience.
+- **Which technologies power InkFlow AI Convert?**
+  - InkFlow AI Convert is built upon a foundation of Next.js, Tailwind CSS, and MongoDB, ensuring a seamless and efficient user experience.
 
 - **What developer tools are integrated into the project?**
   - The project incorporates tools such as ESLint, Prettier, Husky, lint-staged, and CommitLint to ensure code quality, standardized commits, and an optimized development environment.

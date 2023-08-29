@@ -15,11 +15,11 @@
     "prepare": "husky install"
   },
   "bugs": {
-    "url": "hhttps://github.com/shahadat3669/inkflow-ai-converter/issues"
+    "url": "hhttps://github.com/shahadat3669/inkflow-ai-convert/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:shahadat3669/inkflow-ai-converter.git"
+    "url": "git@github.com:shahadat3669/inkflow-ai-convert.git"
   },
   "dependencies": {
     "next": "13.4.19",
