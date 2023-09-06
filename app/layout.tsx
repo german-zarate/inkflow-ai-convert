@@ -1,9 +1,15 @@
+'use client';
+
 import './globals.css';
 
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
+import { ThemeProvider } from 'next-themes';
+
+import { cn } from '@/lib/utils';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
+// main color
 
 export const metadata: Metadata = {
   title: 'InkFlow AI Convert',
@@ -14,7 +20,13 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body className={montserrat.className}>{children}</body>
+      <body
+        className={cn((montserrat.className, 'bg-slate-50 dark:bg-navy-900'))}
+      >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 };
