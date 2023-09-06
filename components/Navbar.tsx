@@ -42,17 +42,15 @@ const Navbar = () => {
           <li>
             <Link
               className="font-medium transition-colors hover:text-indigo-500"
-              href="/"
+              href="/converted-text"
             >
               Cloud
             </Link>
           </li>
           <li>
-            <Link href="/">
-              <Button type="button" onClick={changeSelectedMode} tone="default">
-                {theme === 'dark' ? <BsSunFill /> : <BsMoonFill />}
-              </Button>
-            </Link>
+            <Button type="button" onClick={changeSelectedMode} tone="default">
+              {theme === 'dark' ? <BsSunFill /> : <BsMoonFill />}
+            </Button>
           </li>
         </ul>
       </nav>
