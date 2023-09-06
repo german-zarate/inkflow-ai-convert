@@ -43,7 +43,7 @@ const Toolbar = ({
   };
 
   return (
-    <section className="flex flex-col items-center justify-center px-2 py-4">
+    <section className="flex flex-col items-center justify-center px-2">
       <h1 className="mb-2 text-center text-2xl font-semibold">
         InkFlow AI Convert Button
       </h1>
